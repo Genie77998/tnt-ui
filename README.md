@@ -1,12 +1,12 @@
-#[tnt-ui](https://github.com/Genie77998/tnt-ui.git) [![npm version](https://img.shields.io/npm/v/tnt-ui.svg?style=flat)](https://www.npmjs.com/package/tnt-ui)
+# [tnt-ui](https://github.com/Genie77998/tnt-ui.git) [![npm version](https://img.shields.io/npm/v/tnt-ui.svg?style=flat)](https://www.npmjs.com/package/tnt-ui)
 
     tnt-ui 组件库
 
-#Install
+# Install
 
     npm install tnt-ui --save
 
-#Usage
+# Usage
 
     import { TntScore } from 'tnt-ui';
     ReactDOM.render(
@@ -18,7 +18,7 @@
     
 
 
-#组件
+# 组件
 
     1.[tnt-score](https://www.npmjs.com/package/tnt-score)
 
@@ -32,7 +32,7 @@
 
     6.[tnt-toast](https://www.npmjs.com/package/tnt-toast)
 
-#按需加载
+# 按需加载
     
     使用 babel-plugin-import
     .babelrc or babel-loader 配置
@@ -46,7 +46,7 @@
 
     import TntScore from 'tnt-ui/lib/tnt-score'
 
-#浏览器引入
+# 浏览器引入
     
     tnt-ui的npm包内dist目录有js和css文件在在文件引用即可 
     全局变量名 tntui
@@ -63,6 +63,6 @@
         ), document.getElementById('app'));
 
 
-#说明 
+# 说明 
    
     此组件库仅供学习使用，PC端兼容性方面未作考虑！
