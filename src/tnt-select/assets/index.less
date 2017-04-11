@@ -1,0 +1,150 @@
+@default-btn-color : #4eccc4;
+@ios-btn-color : #007aff;
+.tnt-select{
+	position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    font-size:16px;
+    z-index: 99999;
+    user-select: none;
+    -webkit-tap-highlight-color:transparent;
+    &.tnt-select-show{
+        display: block;
+    }
+    &.tnt-select-hide{
+        display: none;
+    }
+    .tnt-select-mask{
+    	position: absolute;
+    	top:0;
+    	left:0;
+    	width: 100%;
+    	height:100%;
+    	z-index:1;
+    	background-color:rgba(0,0,0,0.5);
+    }
+    .tnt-select-btn{
+    	color:@default-btn-color;
+    	height: 2.5em;
+	    line-height: 2.5em;
+	    float: right;
+	    padding: 0 1em;
+	    cursor: pointer;
+	    text-decoration: none;
+	    &:active{
+			color:@default-btn-color;
+		}
+    }
+    .tnt-select-content{
+    	background-color: #f7f7f7;
+    	padding:0.4em 0 3em;
+    	position: absolute;
+    	width: 100%;
+    	bottom:0;
+    	left:0;
+    	max-height:70%;
+    	z-index:10;
+    	overflow: hidden;
+    }
+    .tnt-select-navbar{
+    	position: absolute;
+    	bottom:0;
+    	left:0; 
+    	padding: 0.2em 0;
+    	box-sizing: border-box;
+		width: 100%;
+		height:3em;
+		font-size: 0.9em;
+    }
+    .tnt-select-body{
+    	height:200px;
+    	width: 100%;
+    	display: flex;
+    	position: relative;
+    	overflow: hidden;
+    }
+    .tnt-select-items{
+    	flex:1;
+        margin: 0 .25em;        
+        li{
+        	width: 100%;
+        	height:40px;
+        	line-height:40px;
+        	font-size:.9em;
+        	text-align:center;
+        	overflow: hidden;
+    		text-overflow: ellipsis;
+            display: block;
+            white-space: nowrap;
+            box-sizing: border-box;
+            padding: 0 0.3em;
+        }
+    }
+    .tnt-select-viewport{
+    	height:200px;
+    	position: relative;
+    	overflow: hidden;
+    	&:after{
+			content: '';
+			position: absolute;
+			z-index: 2;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			pointer-events: none;
+    	}
+    }
+    .tnt-select-wheel{
+    	position: absolute;
+	    height: 40px;
+	    top: 50%;
+	    margin-top: -20px;
+	    width: 100%;
+	    border-top: 1px solid @default-btn-color;
+    	border-bottom: 1px solid @default-btn-color;
+    }
+    .tnt-select-ios {
+		color: rgb(59, 59, 59);
+		padding:3em 0 0.5em;
+		&:after{
+			content: "";
+			position: absolute;
+			width: 100%;
+			left:0;
+			top:2.8em;
+			height:1px;
+			background-color:#acacac;
+			display: block;
+		}
+		.tnt-select-viewport:after{
+	          background: linear-gradient(#f7f7f7, rgba(245,245,245,0) 52%, rgba(245,245,245,0) 48%, #f7f7f7);
+		}
+		.tnt-select-wheel{
+			border-top: 1px solid #dbdbdb;
+    		border-bottom: 1px solid #dbdbdb;
+		}
+		.tnt-select-items{
+			margin:0;
+		}
+		.tnt-select-btn{
+    		color:@ios-btn-color;
+    		&:nth-child(2) {
+			    float: left;
+			}
+			&:active{
+				color:@ios-btn-color;
+			}
+    	}
+    	.tnt-select-navbar{
+    		bottom:100%;
+    		margin-bottom: -3em;
+    	}
+    }
+    .tnt-select-dark {
+    	color:rgb(201, 203, 204); 
+	    background-color: #263238;
+	}
+}

@@ -1,0 +1,51 @@
+.tnt-switch{
+	display:inline-block;
+	width:4em;
+	height:1.8em;
+	background-color:#ccc;
+	border-color:#ccc;
+	border-width:1px;
+	border-style:solid;
+	box-sizing: border-box;
+	border-radius: 5em;
+	position: relative;
+	text-align:right;
+	line-height:1.6em;
+	color:#fff;
+	overflow:hidden;
+	transition: all .3s;
+	font-size:16px;
+	user-select: none;
+	cursor: pointer;
+	&.tnt-switch-checked{
+		text-align:left;
+		border-color:#108ee9;
+		background-color:#108ee9;
+		&::after{
+			left:100%;
+			margin-left:-1.6em;
+		}
+	}
+	&.tnt-switch-disabled{
+		cursor: not-allowed;
+		background: #f4f4f4;
+		border-color: #f4f4f4;
+	}
+	&::after{
+		content:"";
+		display:inline-block;
+		background-color:#fff;
+		position: absolute;
+		top:50%;
+		transform: translate(0,-50%);
+		left:0;
+		width:1.6em;
+		height:1.6em;
+		border-radius:50%;
+		transition: all 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+	}
+	.tnt-switch-inner{
+		font-size:0.9em;
+		padding:0 0.5em;
+	}
+}

@@ -1,0 +1,66 @@
+{
+  "name": "tnt-ui",
+  "version": "2.0.0",
+  "description": "tnt-ui组件",
+  "main": "./lib/index",
+  "scripts": {
+    "build": "babel src -D --extensions .js -d lib & npm run dist & npm run min",
+    "dist": "webpack --config webpack.dist.js",
+    "min": "webpack --config webpack.dist.js -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Genie77998/tnt-ui.git"
+  },
+  "config": {
+    "port": 12315
+  },
+  "author": "wj77998",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "babel": {
+    "presets": [
+      "stage-0",
+      "react",
+      "es2015"
+    ],
+    "plugins": [
+      "add-module-exports"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.5",
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-import": "^1.1.1",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "babel-runtime": "^6.23.0",
+    "css-loader": "^0.26.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "node-sass": "^4.5.0",
+    "postcss-loader": "^1.3.2",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.13.2",
+    "url-loader": "^0.5.8",
+    "webpack": "1.12.2",
+    "webpack-dev-middleware": "1.8.4",
+    "webpack-dev-server": "1.12.1",
+    "webpack-hot-middleware": "2.13.1"
+  },
+  "files": [
+    "lib",
+    "dist"
+  ]
+}

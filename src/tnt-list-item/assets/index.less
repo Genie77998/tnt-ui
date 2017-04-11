@@ -1,0 +1,71 @@
+.tnt-list-item{
+	color: #000;
+    font-size: 16px;
+    line-height: 1.6em;
+    padding: .75em .65em;
+    vertical-align: middle;
+    text-align: left;
+    overflow: inherit;
+    display: -webkit-box;
+    display: -webkit-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    position: relative;
+    word-break: break-all;
+    word-wrap: break-word;
+	&.tnt-list-item-arrow{
+		padding-right: 2em;
+		&::after{
+			content: "";
+			display: block;
+			width:.6em;
+			height:.6em; 
+			top:50%;
+			right:.8em;
+			margin-top: -.3em;
+			position: absolute;
+			border: .12em solid #ccc;
+		    border-top: 0 none;
+		    border-left: 0 none;
+		    transform: rotate(315deg);
+		}
+	}
+    .tnt-list-item-thumb{
+		position: relative;
+		line-height: 1.6em;
+		margin-right: 0.8em;
+		img{
+			width: 1.6em;
+			height:1.6em;
+			display: inline-block;
+			vertical-align: middle;
+		}
+    }
+    .tnt-list-item-content{
+    	-webkit-box-flex: 2;
+	    -webkit-flex: 2;
+	    min-width: 5em;
+	    width: auto;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+    }
+    .tnt-list-item-subtitle{
+    	-webkit-box-flex: 1;
+	    -webkit-flex: 1;
+	    color: #999;
+	    text-align: right;
+	    width: auto;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	    margin-left:.8em;
+    }
+    &.tnt-list-item-nohidden{
+		.tnt-list-item-content,
+		.tnt-list-item-subtitle{
+			white-space: normal;
+			text-overflow: inherit;
+		}
+    }
+}
