@@ -19,7 +19,7 @@
 
 # 组件
 
-    1. # [tnt-score](https://www.npmjs.com/package/tnt-score)
+    1. ## [tnt-score](https://www.npmjs.com/package/tnt-score)
 
     2. [tnt-lazy-load](https://www.npmjs.com/package/tnt-lazy-load)
     
