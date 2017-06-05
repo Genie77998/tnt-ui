@@ -19,12 +19,12 @@
 
 # 组件
 
-    1. [tnt-score](https://www.npmjs.com/package/tnt-score)
-    2. [tnt-lazy-load](https://www.npmjs.com/package/tnt-lazy-load)
-    3. [tnt-select](https://www.npmjs.com/package/tnt-select)
-    4. [tnt-swiper](https://www.npmjs.com/package/tnt-swiper)
-    5. [tnt-switch](https://www.npmjs.com/package/tnt-switch)
-    6. [tnt-toast](https://www.npmjs.com/package/tnt-toast) 
+   1. [tnt-score](https://www.npmjs.com/package/tnt-score)
+   2. [tnt-lazy-load](https://www.npmjs.com/package/tnt-lazy-load)
+   3. [tnt-select](https://www.npmjs.com/package/tnt-select)
+   4. [tnt-swiper](https://www.npmjs.com/package/tnt-swiper)
+   5. [tnt-switch](https://www.npmjs.com/package/tnt-switch)
+   6. [tnt-toast](https://www.npmjs.com/package/tnt-toast) 
 
 # 按需加载
     使用 babel-plugin-import
