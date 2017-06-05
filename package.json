@@ -1,6 +1,6 @@
 {
   "name": "tnt-ui",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "tnt-ui组件",
   "main": "./lib/index",
   "scripts": {
