@@ -46,13 +46,13 @@
 
 #浏览器引入
     tnt-ui的npm包内dist目录有js和css文件在在文件引用即可 
-    全局变量名 tntui
+    全局变量名 tnt-ui
 
     例如：  
         ReactDOM.render(React.createElement(
           'div',
           null,
-          React.createElement(tntui.TntScore, {
+          React.createElement(tnt-ui.TntScore, {
             defaultValue: 3.5,
             style: { fontSize: 16, margin: 20 },
             allowHalf: true

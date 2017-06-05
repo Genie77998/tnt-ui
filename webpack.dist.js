@@ -14,7 +14,7 @@ module.exports = {
     output: {
         path: path.join(__dirname, 'dist'),
         publicPath: 'dist/',
-        library: 'tntui',
+        library: 'tnt-ui',
         libraryTarget: 'umd',
         filename: `${_filename}.js`
     },
