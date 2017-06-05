@@ -19,7 +19,7 @@
 
 # 组件
 
-    1. [tnt-score](https://www.npmjs.com/package/tnt-score) [![npm version](https://img.shields.io/npm/v/tnt-ui.svg?style=flat)](https://www.npmjs.com/package/tnt-score)
+    1. [tnt-score](https://www.npmjs.com/package/tnt-score) [![npm version](https://img.shields.io/npm/v/tnt-ui.svg?style=flat)]       (https://www.npmjs.com/package/tnt-score)
 
     2. [tnt-lazy-load](https://www.npmjs.com/package/tnt-lazy-load) [![npm version](https://img.shields.io/npm/v/tnt-ui.svg?style=flat)](https://www.npmjs.com/package/tnt-lazy-load)
 
