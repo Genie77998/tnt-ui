@@ -19,17 +19,17 @@
 
 # 组件
 
-  1.  [tnt-score](https://www.npmjs.com/package/tnt-score)[![npm version](https://img.shields.io/npm/v/tnt-ui.svg?style=flat)](https://www.npmjs.com/package/tnt-score)
+  1. [tnt-score](https://www.npmjs.com/package/tnt-score) [![npm version](https://img.shields.io/npm/v/tnt-ui.svg?style=flat)](https://www.npmjs.com/package/tnt-score)
 
-  2. [tnt-lazy-load](https://www.npmjs.com/package/tnt-lazy-load)[![npm version](https://img.shields.io/npm/v/tnt-ui.svg?style=flat)](https://www.npmjs.com/package/tnt-lazy-load)
+  2. [tnt-lazy-load](https://www.npmjs.com/package/tnt-lazy-load) [![npm version](https://img.shields.io/npm/v/tnt-ui.svg?style=flat)](https://www.npmjs.com/package/tnt-lazy-load)
 
-  3. [tnt-select](https://www.npmjs.com/package/tnt-select)[![npm version](https://img.shields.io/npm/v/tnt-ui.svg?style=flat)](https://www.npmjs.com/package/tnt-select)
+  3. [tnt-select](https://www.npmjs.com/package/tnt-select) [![npm version](https://img.shields.io/npm/v/tnt-ui.svg?style=flat)](https://www.npmjs.com/package/tnt-select)
 
-  4. [tnt-swiper](https://www.npmjs.com/package/tnt-swiper)[![npm version](https://img.shields.io/npm/v/tnt-ui.svg?style=flat)](https://www.npmjs.com/package/tnt-swiper)
+  4. [tnt-swiper](https://www.npmjs.com/package/tnt-swiper) [![npm version](https://img.shields.io/npm/v/tnt-ui.svg?style=flat)](https://www.npmjs.com/package/tnt-swiper)
 
-  5. [tnt-switch](https://www.npmjs.com/package/tnt-switch)[![npm version](https://img.shields.io/npm/v/tnt-ui.svg?style=flat)](https://www.npmjs.com/package/tnt-switch)
+  5. [tnt-switch](https://www.npmjs.com/package/tnt-switch) [![npm version](https://img.shields.io/npm/v/tnt-ui.svg?style=flat)](https://www.npmjs.com/package/tnt-switch)
 
-  6.  [tnt-toast](https://www.npmjs.com/package/tnt-toast)[![npm version](https://img.shields.io/npm/v/tnt-ui.svg?style=flat)](https://www.npmjs.com/package/tnt-toast)
+  6. [tnt-toast](https://www.npmjs.com/package/tnt-toast) [![npm version](https://img.shields.io/npm/v/tnt-ui.svg?style=flat)](https://www.npmjs.com/package/tnt-toast)
   
   
 # 按需加载
