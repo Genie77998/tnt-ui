@@ -19,14 +19,10 @@
 
 # 组件
 
-     [tnt-score](https://www.npmjs.com/package/tnt-score)
-
+    1. [tnt-score](https://www.npmjs.com/package/tnt-score)
     2. [tnt-lazy-load](https://www.npmjs.com/package/tnt-lazy-load)
-    
     3. [tnt-select](https://www.npmjs.com/package/tnt-select)
-
     4. [tnt-swiper](https://www.npmjs.com/package/tnt-swiper)
-
     5. [tnt-switch](https://www.npmjs.com/package/tnt-switch)
     6. [tnt-toast](https://www.npmjs.com/package/tnt-toast) 
 
