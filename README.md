@@ -1,6 +1,6 @@
 # [tnt-ui](https://github.com/Genie77998/tnt-ui.git) [![npm version](https://img.shields.io/npm/v/tnt-ui.svg?style=flat)](https://www.npmjs.com/package/tnt-ui)
 
-    react 组件库
+    react 组件库
 
 # Install
     npm install tnt-ui --save
